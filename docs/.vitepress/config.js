@@ -6,8 +6,8 @@ const version = meta['workspace']['package']['version'];
 
 export default {
     lang: 'en-US',
-    title: 'Cargo Lambda',
-    description: 'Rust functions on AWS Lambda made simple',
+    title: 'VitePress Demo',
+    description: 'VitePress Demo Desc',
 
     lastUpdated: true,
 
@@ -19,18 +19,13 @@ export default {
             '/commands/': sidebar()
         },
 
-        editLink: {
-            pattern: 'https://github.com/cargo-lambda/cargo-lambda/edit/main/docs/:path',
-            text: 'Edit this page on GitHub'
-        },
-
         socialLinks: [
             { icon: 'github', link: 'https://github.com/cargo-lambda/cargo-lambda' }
         ],
 
         footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2022-present David Calavera'
+            message: 'NA',
+            copyright: 'NA'
         },
 
         search: {
