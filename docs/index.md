@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: Cargo Lambda
-titleTemplate: Rust functions on AWS Lambda made simple
+title: VitePress Demo
+titleTemplate: VitePress Demo
 
 hero:
-  name: Cargo Lambda
-  text: Rust functions on AWS Lambda made simple
+  name: VitePress Demo
+  text: VitePress Demo
   tagline: Run, Build, and Deploy Rust functions on AWS Lambda natively from your computer, no containers or VMs required.
   actions:
     - theme: brand
