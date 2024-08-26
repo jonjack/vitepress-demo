@@ -3,7 +3,7 @@
 This page explains how we can use automate the lambda deployment process, using CI.
 All we need is credentials to an AWS user with the correct permissions.
 
-To read more about the `cargo lambda deploy` command see the [commands](/commands/deploy) documentation.
+To read more about the `cargo lambda deploy` command see the [commands](../commands/deploy) documentation.
 
 ## Step 1: Create an AWS service account
 

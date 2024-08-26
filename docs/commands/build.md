@@ -23,7 +23,7 @@ The following video shows you how to use this subcommand:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ICUSfTorBnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-If you want to learn more abour cross-compiling Rust Lambda functions, checkout the [Cross Compiling Guide](/guide/cross-compiling).
+If you want to learn more abour cross-compiling Rust Lambda functions, checkout the [Cross Compiling Guide](../guide/cross-compiling).
 
 ## Output Format
 
@@ -60,7 +60,7 @@ By default, cargo-lambda compiles the code in `debug` mode. If you want to chang
 cargo lambda build --release
 ```
 
-When you compile your code in release mode, cargo-lambda will apply some optimizations to make the binary size smaller. Check out the [Release Optimizations](/guide/release-optimizations) guide for more details.
+When you compile your code in release mode, cargo-lambda will apply some optimizations to make the binary size smaller. Check out the [Release Optimizations](../guide/release-optimizations) guide for more details.
 
 ## Extensions
 
@@ -90,7 +90,7 @@ The default compiler is `cargo-zigbuild`. This compiler uses [Zig](https://zigla
 
 Cargo Lambda also supports building Rust projects without Zig as the target linker. This compiler is identifed as just `cargo`. A disadvantage of this is that it's up to you to guarantee that the binary works on Linux. An advantage is that if you always build functions on Linux, you don't need to install Zig to use Cargo Lambda.
 
-Cargo Lambda supports building Rust projects with [cross](https://crates.io/crates/cross) as well. Read the [Cross Compiling reference](/guide/cross-compiling.html#cross-compiling-with-cross) to learn more abour using cross as the Lambda compiler.
+Cargo Lambda supports building Rust projects with [cross](https://crates.io/crates/cross) as well. Read the [Cross Compiling reference](../guide/cross-compiling.html#cross-compiling-with-cross) to learn more abour using cross as the Lambda compiler.
 
 ### Switching compilers
 
