@@ -1,26 +1,25 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: VitePress Demo
-titleTemplate: VitePress Demo
-
 hero:
-  name: VitePress Demo
-  text: VitePress Demo
-  tagline: Run, Build, and Deploy Rust functions on AWS Lambda natively from your computer, no containers or VMs required.
+  name: "VitePress Demo"
+  text: "VitePress Demo Description"
+  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/getting-started
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/cargo-lambda/cargo-lambda
+      text: API Examples
+      link: /api-examples
 
 features:
-  - title: Rust functions on AWS Lambda made simple
-    details: Cross compile your Rust functions for Linux and ARM processors from macOS, Windows, and Linux. Powered by Zig.
-  - title: Native Developer Experience
-    details: Run and test your functions locally without Docker, VMs, or any other additional tools.
-  - title: From zero to production with one single tool
-    details: Organize your work-around common workflows. Cargo Lambda helps you start your projects and take them to production when they are ready.
+  - title: Feature A
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature B
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
