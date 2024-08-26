@@ -1,8 +1,3 @@
-const toml = require('toml');
-const fs = require('fs');
-
-const meta = toml.parse(fs.readFileSync('../Cargo.toml', 'utf-8'));
-const version = meta['workspace']['package']['version'];
 
 export default {
     lang: 'en-US',
@@ -10,6 +5,8 @@ export default {
     description: 'VitePress Demo Desc',
 
     lastUpdated: true,
+
+    ignoreDeadLinks: true,
 
     themeConfig: {
         nav: nav(),
@@ -20,7 +17,7 @@ export default {
         },
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/cargo-lambda/cargo-lambda' }
+            { icon: 'github', link: 'https://github.com/jonjack/vitepress-demo' }
         ],
 
         footer: {
@@ -37,8 +34,7 @@ export default {
 function nav() {
     return [
         { text: 'Guide', link: '/guide/what-is-cargo-lambda', activeMatch: '/guide/' },
-        { text: 'Commands', link: '/commands/introduction', activeMatch: '/commands/' },
-        { text: `Version: ${version}`, link: `https://github.com/cargo-lambda/cargo-lambda/releases/tag/v${version}` }
+        { text: 'Commands', link: '/commands/introduction', activeMatch: '/commands/' }
     ]
 }
 
